@@ -35,8 +35,8 @@ def game_begin(mark_pro=0.0124, weapon_pro=0.02479, other_mark_pro=0.0031*3*4, o
 
         for index in range(pre_count):
             stop_flag = 0
-            one = random.uniform(0, 1)
-            two = random.uniform(0, 1)
+            one = random.uniform(0, 0.5732)
+            two = random.uniform(0.5732, 1)
             count_insure_inc = 0
 
             # 十抽保底机制
